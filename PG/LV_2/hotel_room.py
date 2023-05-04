@@ -15,6 +15,4 @@ def solution(book_time):
     
     return max(dic.values())
 
-# O(n^2)
-
 print(solution([["09:00","09:20"], ["09:10","09:40"],["09:30","10:10"]]))
